@@ -1,0 +1,14 @@
+[project]
+name = "text-summarization-using-nlp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muskan Kumar", email = "muskankumar952593@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+text-summarization-using-nlp = "text_summarization_using_nlp:main"
+
